@@ -7,10 +7,10 @@ const INITIAL_STATE = {
           linkUrl: '/food'
         },
         {
-          title: 'drink',
+          title: 'drinks',
           imageUrl: 'https://i.ibb.co/px2tCc3/jackets.png',
           id: 2,
-          linkUrl: '/drink'
+          linkUrl: '/drinks'
         },
         {
           title: 'dessert',

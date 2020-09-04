@@ -4,11 +4,15 @@ import { createStructuredSelector } from 'reselect';
 
 import { selectDirectorySections } from '../../redux/directory/directory.selector';
 
+import InterfaceItem from '../interface-item/interface-item.component';
+
 import './directory.styles.scss';
 
-const Directory = () => (
+const Directory = ({ sections }) => (
     <div className='directory-menu'>
-      hello world
+    {sections.map(({ id, ...otherSectionProps }) => (
+        <InterfaceItem key={id} {...otherSectionProps}/>
+      ))}
     </div>
 );
 
