@@ -4,19 +4,19 @@ const INITIAL_STATE = {
           title: 'food',
           imageUrl: 'https://i.ibb.co/cvpntL1/hats.png',
           id: 1,
-          linkUrl: '/food'
+          linkUrl: 'menu/food'
         },
         {
           title: 'drinks',
           imageUrl: 'https://i.ibb.co/px2tCc3/jackets.png',
           id: 2,
-          linkUrl: '/drinks'
+          linkUrl: 'menu/drinks'
         },
         {
           title: 'dessert',
           imageUrl: 'https://i.ibb.co/0jqHpnp/sneakers.png',
           id: 3,
-          linkUrl: '/dessert'
+          linkUrl: 'menu/dessert'
         }]
 };
 

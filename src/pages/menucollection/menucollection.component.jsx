@@ -2,7 +2,7 @@ import React from 'react';
 import { connect } from 'react-redux';
 
 import { selectCollection } from '../../redux/menu/menu.selector';
-import CollectionItem from '../../components/collection-item/collection-item.component';  // make this next 
+import MenuItem from '../../components/menu-item/menu-item.component';
 
 import './menucollection.styles.scss';
 
@@ -13,7 +13,7 @@ const MenuCollectionPage = ({ collection }) => {
       <h2 className='title'>{ title }</h2>
       <div className='items'>
         {items.map(item => (
-          <CollectionItem key={item.id} item={item} />
+          <MenuItem key={item.id} item={item} />
           ))}
       </div>
     </div>
