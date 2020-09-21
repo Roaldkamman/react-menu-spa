@@ -7,10 +7,9 @@ import MenuItem from '../../components/menu-item/menu-item.component';
 import './menucollection.styles.scss';
 
 const MenuCollectionPage = ({ collection }) => {
-  const { title, items } = collection;
+  const { items } = collection;
   return (
     <div className='collection-page'>
-      <h2 className='title'>{ title }</h2>
       <div className='items'>
         {items.map(item => (
           <MenuItem key={item.id} item={item} />

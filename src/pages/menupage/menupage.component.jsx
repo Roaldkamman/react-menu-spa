@@ -4,7 +4,7 @@ import { Route } from 'react-router-dom';
 import MenuCollectionPage from '../menucollection/menucollection.component';
 
 const MenuPage = ({ match }) => (
-  <div className='shop-page'>
+  <div>
     <Route path={`${match.path}/:collectionId`} component={MenuCollectionPage}/>
   </div>
 );

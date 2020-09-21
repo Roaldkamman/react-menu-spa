@@ -13,9 +13,9 @@ const MenuItem = ({ item }) => {
         }}
       />
       <div className='collection-footer'>
-        <span className='name'>{name}</span>
-        <span className='description'>{description}</span>
-        <span className='price'>{price}</span>
+        <h3 className='name'>{name}</h3>
+        <p className='description'>{description}</p>
+        <h4 className='price'>${price}</h4>
       </div>
     </div>
 )};

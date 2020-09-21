@@ -1,7 +1,17 @@
 .directory-menu {
-    width: 100%;
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
+    width: 100%;
+    max-width: 500px;
+    min-width: 250px;
     justify-content: space-between;
+    padding-top: 40px;
+  }
+
+  @media (min-width: 768px) {
+    .directory-menu {
+      padding-top: 80px;
+    }
   }
   

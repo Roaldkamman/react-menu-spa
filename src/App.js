@@ -6,6 +6,7 @@ import './App.css';
 import Header from './components/header/header.component';
 import HomePage from './pages/homepage/homepage.component';
 import MenuPage from './pages/menupage/menupage.component';
+import Footer from './components/footer/footer.component';
 
 class App extends React.Component {
 
@@ -17,6 +18,7 @@ class App extends React.Component {
           <Route exact path='/' component={HomePage}/>
           <Route path='/menu' component={MenuPage}/>
         </Switch>
+        <Footer/>
       </div>
     );
   }

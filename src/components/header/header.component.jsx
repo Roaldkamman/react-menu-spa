@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 import { selectDirectorySections } from '../../redux/directory/directory.selector';
 
-import { ReactComponent as Logo } from '../../assets/signature.svg';
+import { ReactComponent as Logo } from '../../assets/larevolucion.svg';
 
 import HeaderItem from '../header-item/header-item.component';
 
@@ -16,7 +16,7 @@ const Header = ({ sections }) => (
       <Link className='logo-container' to='/'>
         <Logo className='logo'/>
       </Link>
-      <div className='options'>
+      <div>
         <div className='header-nav'>
         {sections.map(({ id, ...otherSectionProps }) => (
           <HeaderItem key={id} {...otherSectionProps}/>
